@@ -33,36 +33,41 @@
         h1 {
             color: #0a3d56;
             margin-bottom: 10px;
+            font-size: 2.5em;
         }
         
         .date {
             color: #5a7a8e;
             margin-bottom: 30px;
+            font-size: 0.95em;
         }
         
         h2 {
             color: #0d5273;
-            margin-top: 30px;
+            margin-top: 35px;
             margin-bottom: 15px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #0a3d56;
+            padding-bottom: 8px;
+        }
+        
+        h3 {
+            color: #0d5273;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
         }
         
         p {
             margin-bottom: 15px;
             color: #444;
-        }
-        
-        ul {
-            margin: 15px 0 15px 30px;
-        }
-        
-        li {
-            margin-bottom: 10px;
-            color: #444;
+            text-align: justify;
         }
         
         a {
             color: #0a3d56;
             text-decoration: none;
+            font-weight: 600;
         }
         
         a:hover {
@@ -72,6 +77,22 @@
         
         strong {
             color: #0d5273;
+        }
+        
+        .highlight-box {
+            background: rgba(10, 61, 86, 0.05);
+            border-left: 4px solid #0a3d56;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .warning-box {
+            background: rgba(255, 152, 0, 0.08);
+            border-left: 4px solid #ff9800;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 5px;
         }
         
         .back-link {
@@ -84,6 +105,7 @@
             border-radius: 25px;
             transition: transform 0.3s, box-shadow 0.3s;
             box-shadow: 0 4px 15px rgba(10, 61, 86, 0.3);
+            font-weight: 600;
         }
         
         .back-link:hover {
@@ -96,70 +118,268 @@
 <body>
     <div class="container">
         <h1>Terms of Service</h1>
-        <p class="date"><strong>Last Updated:</strong> January 4, 2025</p>
+        <p class="date"><strong>Last Updated:</strong> February 11, 2025</p>
+
+        <div class="highlight-box">
+            <p><strong>By using PureWall, you agree to these terms.</strong> Please read them carefully. If you do not agree, do not download, install, or use the App.</p>
+        </div>
+
+        <div class="highlight-box">
+            <p><strong>🔒 Privacy-Friendly Design:</strong> PureWall does NOT require you to create an account or log in. We do not collect your email, name, or any personally identifiable information. All your preferences and favorites are stored locally on your device only.</p>
+        </div>
 
         <h2>1. Acceptance of Terms</h2>
-        <p>By downloading, installing, or using PureWall ("the App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.</p>
+        <p>By downloading, installing, accessing, or using PureWall (referred to as "the App," "PureWall," or "our App"), you agree to be legally bound by these Terms of Service (referred to as "Terms"). These Terms constitute a binding agreement between you and PureWall (referred to as "we," "us," or "our"). If you do not agree to these Terms, you must immediately cease using the App and delete it from your device.</p>
 
-        <h2>2. License to Use</h2>
-        <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use PureWall for personal, non-commercial purposes.</p>
+        <h2>2. Description of Service</h2>
+        <p>PureWall is a mobile application available on iOS that provides access to a curated collection of high-quality wallpapers for personal use. The App offers both free and premium features designed to enhance your mobile device experience.</p>
+        
+        <h3>2.1 Free Features</h3>
+        <p>The free version of PureWall provides access to fourteen standard wallpaper categories including Nature, Cars, Animals, Abstract Art, Geometry & Patterns, Space & Astronomy, Anime & Animation, Architecture, Floral & Botanical, Season, Games, Sports & Hobbies, Dark Mode, and Digital Art. Free users can download wallpapers after watching rewarded video advertisements, save unlimited wallpapers to their favorites collection, view globally trending wallpapers based on community downloads and favorites, and enjoy high-quality images optimized for mobile devices.</p>
 
-        <h2>3. User Conduct</h2>
-        <p>You agree not to:</p>
-        <ul>
-            <li>Use the App for any illegal purpose</li>
-            <li>Attempt to reverse engineer, decompile, or disassemble the App</li>
-            <li>Redistribute wallpapers for commercial purposes</li>
-            <li>Circumvent any ads or payment systems</li>
-            <li>Use automated systems to download wallpapers in bulk</li>
-        </ul>
+        <h3>2.2 Premium Features</h3>
+        <p>Premium subscribers gain exclusive access to fourteen premium wallpaper collections with unique, high-quality content not available in the free version. Premium users enjoy an ad-free experience with instant downloads without watching advertisements, unlimited downloads with no restrictions or wait times between downloads, and priority access to new wallpaper additions before they are made available to free users.</p>
 
-        <h2>4. Wallpaper Ownership</h2>
-        <p>All wallpapers are provided for personal use only. Wallpapers remain the property of their respective copyright holders. PureWall does not claim ownership of the wallpapers.</p>
+        <h2>3. App Usage and Access</h2>
+        
+        <h3>3.1 No Account Required</h3>
+        <p>PureWall does not require you to create an account or log in to use the app. You can download and use PureWall immediately upon installation without providing any personal information such as email addresses, names, or passwords.</p>
+
+        <h3>3.2 Subscription Management</h3>
+        <p>Premium subscriptions are managed entirely through your Apple App Store account. When you subscribe to PureWall Premium, the subscription is linked to your Apple ID, and no separate PureWall account is created. Your subscription status is verified through Apple's system, and all billing and payment are handled by Apple, not PureWall.</p>
+
+        <h3>3.3 Data Storage</h3>
+        <p>All app data is stored locally on your device. This includes your favorite wallpapers which are saved using SharedPreferences, your app settings and preferences, and downloaded wallpapers which are saved to your Photos app or Camera Roll. No personal data is synchronized to the cloud or stored on our servers.</p>
+
+        <h3>3.4 Age Requirements</h3>
+        <p>PureWall is designed for general audiences and does not contain inappropriate or abusive content. However, due to legal requirements regarding data collection, advertising, and in-app purchases, you must be at least thirteen years old to use PureWall. If you are between thirteen and seventeen years old, you should have permission from a parent or legal guardian. Users in the European Economic Area (EEA) may need to be sixteen or older depending on local laws. These age requirements are in compliance with COPPA (Children's Online Privacy Protection Act) in the United States, GDPR (General Data Protection Regulation) in Europe, Apple App Store guidelines, and Google AdMob advertising policies.</p>
+
+        <h2>4. Wallpaper License and Usage Rights</h2>
+        
+        <h3>4.1 Personal Use License</h3>
+        <p>Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to download wallpapers to your personal devices, use wallpapers as backgrounds on your personal mobile devices, tablets, or computers, and view and enjoy wallpapers for personal, non-commercial purposes only.</p>
+
+        <h3>4.2 Prohibited Uses</h3>
+        <p>You may not redistribute, sell, lease, or license any wallpapers obtained through PureWall. You may not use wallpapers for commercial purposes without explicit written permission from the copyright holder. You may not claim ownership or authorship of any wallpapers. You may not modify wallpapers and distribute them as your own work. You may not upload wallpapers to wallpaper sharing websites or competing applications. You may not use wallpapers in any product or service you sell or commercialize. You may not remove or alter any copyright notices, watermarks, or attributions that may be present on wallpapers. You may not create derivative works from the wallpapers without permission.</p>
+
+        <h3>4.3 Intellectual Property</h3>
+        <p>All wallpapers, images, graphics, and content in PureWall are protected by copyright, trademark, and other intellectual property laws. Ownership of wallpapers remains with the original copyright holders and/or PureWall. The license granted to you does not transfer any ownership rights.</p>
 
         <h2>5. Premium Subscription</h2>
-        <ul>
-            <li>Premium subscriptions are billed through your Apple ID</li>
-            <li>Subscriptions auto-renew unless cancelled 24 hours before the end of the current period</li>
-            <li>Refunds are subject to Apple's refund policy</li>
-            <li>Access to premium content is granted only while subscription is active</li>
-        </ul>
+        
+        <h3>5.1 Subscription Terms</h3>
+        <p>Premium subscriptions are billed through your Apple App Store account. Payment will be charged to your Apple ID upon confirmation of purchase. Subscriptions automatically renew unless cancelled at least twenty-four hours before the end of the current period. Your account will be charged for renewal within twenty-four hours prior to the end of the current period at the same price as the initial subscription.</p>
 
-        <h2>6. Advertisements</h2>
-        <p>The free version of PureWall displays advertisements. By using the free version, you agree to view ads as part of the download process.</p>
+        <h3>5.2 Subscription Management</h3>
+        <p>You can manage and cancel your subscription at any time by opening Settings on your iOS device, tapping your name at the top of the screen, selecting "Subscriptions," choosing PureWall from the list, and selecting "Cancel Subscription." The cancellation will take effect at the end of your current billing period.</p>
 
-        <h2>7. Content Disclaimer</h2>
-        <ul>
-            <li>We curate wallpapers but do not guarantee availability</li>
-            <li>Wallpapers may be removed at any time</li>
-            <li>We are not responsible for how wallpapers appear on your device</li>
-            <li>Downloaded wallpapers are stored in your Photos app and subject to your device's storage limits</li>
-        </ul>
+        <h3>5.3 Refund Policy</h3>
+        <p>All purchases are processed through the Apple App Store, and PureWall does not handle payments directly. Refund requests must be submitted through Apple and are subject to Apple's refund policy. We do not process refunds directly. To request a refund, please contact Apple Support or visit reportaproblem.apple.com.</p>
 
-        <h2>8. Privacy</h2>
-        <p>Your use of PureWall is also governed by our <a href="privacy.html">Privacy Policy</a>. Please review it to understand how we collect and use your information.</p>
+        <h3>5.4 Access to Premium Content</h3>
+        <p>Premium features are available only while your subscription is active and in good standing. If your subscription expires or is cancelled, you will lose access to premium categories and the ad-free experience. However, any wallpapers you previously downloaded from premium categories will remain on your device in your Photos app. You will not be able to download new premium wallpapers after cancellation unless you resubscribe.</p>
 
-        <h2>9. Disclaimer of Warranties</h2>
-        <p>THE APP IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.</p>
+        <h2>6. Advertising (Free Users)</h2>
+        
+        <h3>6.1 Rewarded Video Advertisements</h3>
+        <p>Free users must watch rewarded video advertisements to download wallpapers. You must watch the complete advertisement from beginning to end to unlock the download. Closing or skipping an advertisement before completion will not grant download access, and you will need to watch another complete advertisement to proceed. One advertisement must be viewed per wallpaper download. Advertisements are provided by Google AdMob, a third-party advertising network.</p>
 
-        <h2>10. Limitation of Liability</h2>
-        <p>IN NO EVENT SHALL PUREWALL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF YOUR USE OF THE APP.</p>
+        <h3>6.2 Ad Technology</h3>
+        <p>We use Google Mobile Ads SDK (AdMob) to deliver advertisements within the free version of PureWall. By using the free version, you consent to receive advertisements, acknowledge that ad networks may collect data about your device and usage patterns to serve relevant ads, and accept Google's advertising policies and practices as outlined in their privacy policy.</p>
 
-        <h2>11. Changes to Terms</h2>
-        <p>We reserve the right to modify these Terms at any time. Continued use of the App after changes constitutes acceptance of the new Terms.</p>
+        <div class="warning-box">
+            <p><strong>Important Notice:</strong> Attempting to circumvent, block, or manipulate the advertising system through technical means, modified apps, or any other method is strictly prohibited and constitutes a material breach of these Terms. Such actions may result in immediate termination of your access to PureWall.</p>
+        </div>
 
-        <h2>12. Termination</h2>
-        <p>We may terminate or suspend your access to the App at any time, without prior notice, for conduct that we believe violates these Terms or is harmful to other users.</p>
+        <h3>6.3 Ad-Free Option</h3>
+        <p>To remove advertisements and enjoy instant downloads, you may subscribe to PureWall Premium at any time through the in-app purchase system.</p>
 
-        <h2>13. Governing Law</h2>
-        <p>These Terms shall be governed by and construed in accordance with the laws of [Your Country/State], without regard to its conflict of law provisions.</p>
+        <h2>7. User Conduct and Prohibited Activities</h2>
+        
+        <p>You agree to use PureWall in a lawful and respectful manner. The following activities are strictly prohibited and may result in immediate termination of your access to the App.</p>
+        
+        <h3>7.1 Technical Abuse</h3>
+        <p>You may not reverse engineer, decompile, disassemble, or attempt to derive source code from the App or any component thereof. You may not use any automated systems including but not limited to bots, scripts, scrapers, or any other automated means to access or download content from PureWall. You may not attempt to bypass, disable, or circumvent any security features, access controls, or restrictions implemented in the App. You may not interfere with or disrupt the App's servers, networks, or infrastructure. You may not introduce viruses, malware, trojans, worms, or any other malicious code into the App or its systems.</p>
 
-        <h2>14. Contact Information</h2>
-        <p>For questions about these Terms, please contact us:</p>
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:support@purewall.app">legal@purewall.app</a></li>
-            <li><strong>Support:</strong> <a href="index.html">PureWall Support</a></li>
-        </ul>
+        <h3>7.2 Content Abuse</h3>
+        <p>You may not download wallpapers in excessive quantities that disrupt the service or degrade the experience for other users. You may not share downloaded wallpapers on competing wallpaper platforms, applications, or websites. You may not create a competing wallpaper service using content obtained from PureWall. You may not upload our wallpapers to other platforms, websites, or services for redistribution or commercial purposes.</p>
+
+        <h3>7.3 Abuse and Violations</h3>
+        <p>You may not attempt to circumvent subscription requirements or payment systems through any means. You may not manipulate or abuse the advertising system to download wallpapers without watching complete advertisements. You may not use the App for any illegal purpose or in violation of any applicable local, state, national, or international law. You may not infringe upon the intellectual property rights or other rights of any third party.</p>
+
+        <h2>8. Data Collection and Privacy</h2>
+        
+        <div class="highlight-box">
+            <p><strong>Important:</strong> PureWall contains no inappropriate, violent, or abusive content. The 13+ age requirement exists solely due to legal regulations (COPPA, GDPR) that govern data collection, online advertising, and in-app purchases - not because of the wallpaper content itself.</p>
+        </div>
+        
+        <h3>8.1 Information We Collect</h3>
+        <p>PureWall collects and processes limited information to provide and improve our services. We collect usage data including which wallpapers you have downloaded, favorited, and viewed, as well as which categories you browse. We collect device information such as device model, operating system version, and unique device identifiers. We collect analytics data including app usage patterns, crash reports, and performance metrics to identify and fix bugs. We collect trending data consisting of aggregate download and favorite counts stored in Cloud Firestore to power our trending wallpapers feature. We also verify your subscription status through Apple to determine whether you have an active premium subscription. We do NOT collect any personally identifiable information such as name, email address, phone number, or contact details. PureWall is designed to work without user accounts, and we have no way to identify individual users or link actions to specific people.</p>
+
+        <h3>8.2 Third-Party Services</h3>
+        <p>PureWall uses the following third-party services to deliver our features: Cloud Firestore serves as our database for wallpaper metadata and trending statistics; Firebase Storage provides hosting and delivery of wallpaper images; Google AdMob handles advertisement delivery and management for free users; Google Analytics for Firebase provides usage analytics and insights to help us improve the app; and Apple StoreKit processes subscription and in-app purchase transactions.</p>
+
+        <h3>8.3 Privacy Policy</h3>
+        <p>For detailed information about how we collect, use, and protect your data, please review our comprehensive <a href="privacy.html">Privacy Policy</a>, which is incorporated into these Terms by reference.</p>
+
+        <h2>9. Favorites and Trending Features</h2>
+        
+        <h3>9.1 Favorites (Local Storage)</h3>
+        <p>Favorites are stored locally on your device only using SharedPreferences, a standard iOS data storage mechanism. Your favorites are not synced across devices, backed up to the cloud, or stored on our servers. If you uninstall the app, your favorites will be permanently deleted and cannot be recovered. When you favorite a wallpaper, we anonymously increment a counter in our Cloud Firestore database for trending calculation purposes. No personal information is associated with your favorite actions, and we have no way to determine which user favorited which wallpaper.</p>
+
+        <h3>9.2 Trending System (Anonymous & Global)</h3>
+        <p>Trending wallpapers are calculated based on global, anonymous download and favorite counts collected from all users. Each download anonymously increments a download counter in Cloud Firestore. Each favorite anonymously increments a separate favorite counter. Trending scores are calculated using the formula: Downloads + (Favorites × 2), which gives more weight to favorites as they indicate stronger user preference. Trending rankings update in real-time based on community activity. All trending data is completely anonymous - we do not track which user downloaded or favorited which wallpaper, and we have no ability to identify individual users from this data.</p>
+
+        <h2>10. Content Availability and Changes</h2>
+        
+        <h3>10.1 No Guarantee of Availability</h3>
+        <p>We do not guarantee that any specific wallpaper will remain available indefinitely. We do not guarantee that all categories will always contain wallpapers or that the number of wallpapers will remain constant. We do not guarantee that the App will be available without interruption or that all features will work perfectly at all times. Wallpapers may be added, removed, or modified at our discretion.</p>
+
+        <h3>10.2 Right to Remove Content</h3>
+        <p>We reserve the right to remove any wallpaper at any time without prior notice for any reason, including but not limited to copyright concerns, quality issues, or business decisions. We may modify, update, or replace wallpaper collections as we see fit. We may add new categories or remove existing categories. We may change the organization, categorization, or presentation of content within the App.</p>
+
+        <h3>10.3 Downloaded Content</h3>
+        <p>Once downloaded to your device, wallpapers are saved to your Photos app or Camera Roll and remain on your device even if they are subsequently removed from PureWall. Wallpapers remain subject to the license terms outlined in Section 4 of these Terms, even after download. You are responsible for managing your device storage and deleting downloaded wallpapers if needed.</p>
+
+        <h2>11. Intellectual Property and Ownership</h2>
+        
+        <h3>11.1 PureWall Ownership</h3>
+        <p>The App itself, including its source code and architecture, user interface and design, features and functionality, trademarks, logos, and branding, and all documentation and support materials, are owned by PureWall and protected by copyright, trademark, patent, and other intellectual property laws. You are granted only the limited license described in these Terms and no other rights are transferred to you.</p>
+
+        <h3>11.2 Wallpaper Rights</h3>
+        <p>Wallpapers in PureWall may be licensed from third-party photographers and artists, sourced from public domain or Creative Commons licenses, or created or commissioned by PureWall. We make reasonable efforts to ensure proper licensing of all content but cannot guarantee the copyright status of all wallpapers. If you believe any content infringes your rights, please contact us immediately using the process described below.</p>
+
+        <h3>11.3 Copyright Infringement</h3>
+        <p>If you believe any content in PureWall infringes your copyright, please contact us at <a href="mailto:support@purewall.app">support@purewall.app</a> with the following information: a description of the copyrighted work you claim has been infringed; identification of the specific wallpaper or wallpapers in question, including category and any identifying information; your contact information including name, email address, and phone number; a statement that you have a good faith belief that the use is not authorized by the copyright owner, its agent, or the law; a statement, under penalty of perjury, that the information in your notice is accurate and that you are the copyright owner or authorized to act on behalf of the copyright owner; and your physical or electronic signature.</p>
+
+        <h2>12. Disclaimers and Warranties</h2>
+        
+        <div class="warning-box">
+            <h3>12.1 "AS IS" Service</h3>
+            <p><strong>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. WE SPECIFICALLY DISCLAIM ALL WARRANTIES INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, RELIABILITY, COMPLETENESS OF CONTENT, UNINTERRUPTED OR ERROR-FREE OPERATION, AND SECURITY.</strong></p>
+        </div>
+
+        <h3>12.2 No Warranties</h3>
+        <p>We make no warranties or representations about the accuracy, reliability, completeness, or timeliness of any content, features, or functionality. We do not warrant that the App will meet your specific requirements or expectations. We do not warrant that wallpapers will display correctly on all devices or will be compatible with all screen sizes and resolutions. We do not warrant that the App will be compatible with all future device updates, operating system versions, or hardware configurations. We do not warrant that all bugs, errors, or issues will be corrected or that the App or servers are free from viruses, malware, or other harmful components.</p>
+
+        <h2>13. Limitation of Liability</h2>
+        
+        <div class="warning-box">
+            <h3>13.1 Maximum Liability</h3>
+            <p><strong>TO THE MAXIMUM EXTENT PERMITTED BY LAW, PUREWALL SHALL NOT BE LIABLE FOR ANY DAMAGES WHATSOEVER, INCLUDING INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, ARISING FROM YOUR USE OF OR INABILITY TO USE THE APP.</strong></p>
+        </div>
+
+        <h3>13.2 Exclusion of Damages</h3>
+        <p>In no event shall PureWall be liable for any indirect, incidental, special, consequential, or punitive damages, loss of profits, revenue, data, or business opportunities, loss of use or goodwill, service interruption or downtime, deleted or corrupted files or data, device damage or malfunction, or any damages resulting from third-party services including Apple, Google, Firebase, or AdMob.</p>
+
+        <h3>13.3 Maximum Liability Cap</h3>
+        <p>If, notwithstanding the above limitations, PureWall is found liable for any damages, our total aggregate liability to you for all claims arising from or related to your use of the App shall not exceed the greater of the amount you paid to PureWall in the six months preceding the claim, or one hundred dollars ($100) USD.</p>
+
+        <h2>14. Indemnification</h2>
+        <p>You agree to indemnify, defend, and hold harmless PureWall, its officers, directors, employees, contractors, agents, licensors, and affiliates from and against any and all claims, damages, obligations, losses, liabilities, costs, and expenses (including reasonable attorney's fees and costs) arising from or related to your use or misuse of the App, your violation of these Terms or any applicable laws or regulations, your violation of any third-party rights including intellectual property rights or privacy rights, any content you submit, post, or transmit through the App, or your negligent or willful misconduct.</p>
+
+        <h2>15. App Access and Termination</h2>
+        
+        <h3>15.1 Stopping Use</h3>
+        <p>You may stop using PureWall at any time by uninstalling the App from your device and cancelling your subscription through your Apple App Store settings if you are a premium subscriber. Since PureWall does not use accounts, there is no account to delete. All your data including favorites and settings is stored locally on your device and will be automatically removed when you uninstall the app.</p>
+
+        <h3>15.2 Termination by Us</h3>
+        <p>We reserve the right to restrict or block your access to PureWall if you violate these Terms, engage in prohibited activities as described in Section 7, if we suspect fraudulent, abusive, or illegal activity, if we are required to do so by law or legal process, or if we decide to discontinue the App with reasonable advance notice to users. Access restrictions may be implemented through app version updates that require compliance with new terms, server-side blocks for specific devices or IP addresses, or removal of the app from the Apple App Store.</p>
+
+        <h3>15.3 Effects of Termination</h3>
+        <p>If you uninstall PureWall or we restrict your access, your right to use the App immediately ceases, all locally stored data including favorites and settings will be deleted, previously downloaded wallpapers remain in your Photos app but may not be re-downloaded, active subscriptions will not be automatically refunded (refunds are subject to Apple's refund policy), you must stop using any wallpapers downloaded from PureWall for commercial purposes, and sections of these Terms that by their nature should survive termination (including Sections 4, 12, 13, 14, 16, and 17) continue to apply.</p>
+
+        <h2>16. Changes to Terms</h2>
+        
+        <h3>16.1 Right to Modify</h3>
+        <p>We reserve the right to modify, update, or replace these Terms at any time at our sole discretion. We may make changes to reflect changes in our services, changes in applicable laws or regulations, security or privacy considerations, or for other business or legal reasons.</p>
+
+        <h3>16.2 Notification of Changes</h3>
+        <p>We will notify you of material changes by posting a notice in the App, displaying a notification or alert upon opening the App, updating the "Last Updated" date at the top of these Terms, and publishing updates on our support website. For significant changes that materially affect your rights, we will provide at least thirty days' notice before the changes take effect.</p>
+
+        <h3>16.3 Acceptance of Changes</h3>
+        <p>Your continued use of PureWall after changes are posted and take effect constitutes your acceptance of the modified Terms. If you do not agree to the changes, you must stop using the App and uninstall it from your device. We recommend reviewing these Terms periodically to stay informed of any updates.</p>
+
+        <h2>17. Governing Law and Dispute Resolution</h2>
+        
+        <h3>17.1 Governing Law</h3>
+        <p>These Terms shall be governed by and construed in accordance with the laws of the Kingdom of Saudi Arabia, without regard to its conflict of law provisions. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded.</p>
+
+        <h3>17.2 Dispute Resolution Process</h3>
+        <p>In the event of any dispute, claim, or controversy arising out of or relating to these Terms or your use of PureWall, the parties agree to first attempt informal resolution by contacting us at <a href="mailto:support@purewall.app">support@purewall.app</a> with a detailed description of the dispute. We will attempt to resolve the dispute informally within thirty days. If informal resolution fails, both parties agree to attempt mediation through a mutually agreed upon mediator before pursuing legal action or arbitration. If mediation fails or either party refuses to participate in mediation, disputes will be resolved through binding arbitration in accordance with the laws of the Kingdom of Saudi Arabia.</p>
+
+        <h3>17.3 Class Action Waiver</h3>
+        <p>You agree to resolve disputes with PureWall on an individual basis only. You expressly waive any right to bring, join, or participate in class action lawsuits, class-wide arbitration, or any other representative or collective action. All disputes must be brought in your individual capacity and not as a plaintiff or class member in any purported class or representative proceeding.</p>
+
+        <h3>17.4 Exceptions</h3>
+        <p>Notwithstanding the arbitration requirement above, either party may seek injunctive relief or other equitable relief in a court of competent jurisdiction to protect intellectual property rights, confidential information, or to prevent irreparable harm.</p>
+
+        <h2>18. General Provisions</h2>
+        
+        <h3>18.1 Entire Agreement</h3>
+        <p>These Terms, together with our Privacy Policy and any other legal notices or agreements published by us in connection with the App, constitute the entire agreement between you and PureWall regarding the App and supersede all prior agreements, understandings, and communications, whether written or oral.</p>
+
+        <h3>18.2 Severability</h3>
+        <p>If any provision of these Terms is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions, which shall remain in full force and effect. The invalid provision shall be modified to the minimum extent necessary to make it valid and enforceable.</p>
+
+        <h3>18.3 No Waiver</h3>
+        <p>Our failure or delay in enforcing any right or provision of these Terms will not constitute a waiver of that right or provision unless we explicitly waive such right in writing. No waiver of any term shall be deemed a further or continuing waiver of such term or any other term, and our failure to assert any right or provision under these Terms shall not constitute a waiver of such right or provision.</p>
+
+        <h3>18.4 Assignment</h3>
+        <p>You may not assign, transfer, or delegate these Terms or your rights and obligations hereunder without our prior written consent. Any attempted assignment in violation of this provision shall be null and void. We may freely assign these Terms and our rights and obligations without restriction, including in connection with a merger, acquisition, sale of assets, or by operation of law.</p>
+
+        <h3>18.5 Force Majeure</h3>
+        <p>We shall not be liable for any failure to perform our obligations under these Terms due to circumstances beyond our reasonable control, including but not limited to acts of God, natural disasters, earthquakes, floods, fires, war, terrorism, civil unrest, labor strikes or disputes, governmental actions or restrictions, internet or telecommunications failures, power outages, epidemics or pandemics, or any other events that could not reasonably be foreseen or prevented.</p>
+
+        <h3>18.6 Language</h3>
+        <p>These Terms are written in English. Any translations provided are for convenience only and are not legally binding. In case of any conflict or inconsistency between the English version and any translation, the English version shall prevail and control.</p>
+
+        <h3>18.7 Headings and Interpretation</h3>
+        <p>Section headings and titles are for convenience and reference only and do not affect the interpretation or construction of these Terms. The words "including," "includes," and "include" shall be deemed to be followed by "without limitation."</p>
+
+        <h2>19. Apple-Specific Terms</h2>
+        
+        <p>Because PureWall is distributed through the Apple App Store, the following additional terms apply to your use of the App as required by Apple.</p>
+
+        <h3>19.1 Acknowledgment</h3>
+        <p>These Terms are between you and PureWall only, and not with Apple Inc. ("Apple"). PureWall, not Apple, is solely responsible for the App and its content. Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.</p>
+
+        <h3>19.2 Scope of License</h3>
+        <p>The license granted to you for the App is limited to a non-transferable license to use PureWall on any Apple-branded device that you own or control and as permitted by the Apple App Store Usage Rules set forth in the Apple App Store Terms of Service.</p>
+
+        <h3>19.3 Maintenance and Support</h3>
+        <p>PureWall is solely responsible for providing any maintenance and support services with respect to the App as specified in these Terms or as required under applicable law. Apple has no obligation whatsoever to furnish any maintenance or support services with respect to the App.</p>
+
+        <h3>19.4 Warranty</h3>
+        <p>In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the App (if any) to you. To the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App, and any other claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any warranty will be our sole responsibility.</p>
+
+        <h3>19.5 Product Claims</h3>
+        <p>PureWall, not Apple, is responsible for addressing any claims by you or any third party relating to the App or your possession and/or use of the App, including but not limited to product liability claims, claims that the App fails to conform to any applicable legal or regulatory requirement, and claims arising under consumer protection or similar legislation.</p>
+
+        <h3>19.6 Intellectual Property Rights</h3>
+        <p>In the event of any third-party claim that the App or your possession and use of the App infringes that third party's intellectual property rights, PureWall, not Apple, will be solely responsible for the investigation, defense, settlement, and discharge of any such intellectual property infringement claim to the extent required by these Terms.</p>
+
+        <h3>19.7 Legal Compliance</h3>
+        <p>You represent and warrant that you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a "terrorist supporting" country, and that you are not listed on any U.S. Government list of prohibited or restricted parties.</p>
+
+        <h3>19.8 Third-Party Beneficiary</h3>
+        <p>Apple and its subsidiaries are third-party beneficiaries of these Terms as they relate to your license of the App. Upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary thereof.</p>
+
+        <h2>20. Contact Information</h2>
+        
+        <p>For questions, concerns, support requests, or any other inquiries regarding these Terms or PureWall, please contact us at:</p>
+        
+        <div class="highlight-box">
+            <p><strong>Email:</strong> <a href="mailto:support@purewall.app">support@purewall.app</a></p>
+        </div>
+
+        <p>We strive to respond to all inquiries within 48 hours during business days. For urgent matters, please clearly mark your email as "URGENT" in the subject line.</p>
+
+        <h2>21. Acceptance and Agreement</h2>
+        
+        <p><strong>BY DOWNLOADING, INSTALLING, OR USING PUREWALL, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS OF SERVICE. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT DOWNLOAD, INSTALL, OR USE THE APP.</strong></p>
+
+        <p>These Terms constitute a legally binding agreement. Your use of PureWall signifies your acceptance of these Terms and your commitment to abide by them. We recommend that you print or save a copy of these Terms for your records.</p>
 
         <a href="index.html" class="back-link">← Back to Support</a>
     </div>
